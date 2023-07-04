@@ -1,0 +1,51 @@
+
+body{
+    background-color: #f2f2f2;
+    font: 112.5%/1.45em georgia,
+        serif;
+        font-size: 15px;
+}
+    
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    height: 60px;
+    position: fixed; 
+    width: 100%;
+    display: flex;
+    padding: 10px 20px;
+    background-color: #3a4750;
+    align-items: center;
+    z-index: 2;
+    top: 0;
+    & > * {
+        align-items: center;
+        color: white;
+    }
+   
+}
+.header-left{
+    display: flex;
+}
+.header-right {
+    display: flex;
+}
+.icon{ 
+ color: #ffb5b5;
+ margin: 0 5px;
+}
+.sign-in{
+    padding:0 10px;
+}
+.link{
+    text-decoration: none;
+}
+.signout{
+    background-color: #3a4750;
+    color: #ffb5b5;
+    border: none;
+    margin: 0 5px;
+}

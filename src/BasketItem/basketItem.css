@@ -1,0 +1,14 @@
+.basket-item{
+    display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  justify-content: center;
+  
+}
+.product-left{
+    flex: 1;
+  text-align: center;
+}
+.product-right{
+    flex: 4;
+}

@@ -1,0 +1,12 @@
+.box{
+    position: relative;
+}
+.bottomOne{
+    position: absolute;
+    bottom: 2;
+    z-index: 2;
+}
+.back-button{
+    position: absolute;
+    color: orange;
+}

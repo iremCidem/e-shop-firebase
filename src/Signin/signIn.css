@@ -1,0 +1,47 @@
+.sign-title {
+    margin-top: 5rem;
+    text-align: center;
+}
+
+.signin-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid;
+}
+
+.sign-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 25rem;
+    padding: 7px;
+}
+
+.sign {
+    margin-bottom: 22px;
+}
+
+.input {
+    height: 2rem;
+}
+
+.btn-sign{
+    font-size: medium;
+   
+}
+.btn-create{
+    padding: 5px 8px;
+    color:#3a4750;
+    background-color: #ffb5b5;
+    border: 1px solid #3a4750;
+   font-size: medium;
+   margin:  7px;
+   width: 25rem;
+   
+}
+.btn-create:hover{
+    font-size: 16px;
+border: 1px solid #3a4750;
+box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}

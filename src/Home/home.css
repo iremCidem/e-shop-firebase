@@ -1,0 +1,15 @@
+.container{
+    margin: 0 20px;
+    position: absolute;
+    top: 315px;
+}
+.row{
+  display: flex;
+ 
+     & > * {
+        background-color: white;
+        padding: 20px;
+        flex: 1;
+        margin: 10px;
+    } 
+}
