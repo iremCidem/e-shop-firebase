@@ -33,7 +33,7 @@ const images = [
   },
 ];
 
-function SwipeableTextMobileStepper() {
+export default function SwipeableTextMobileStepper() {
   const theme = useTheme();
   const [activeStep, setActiveStep] = React.useState(0);
   const maxSteps = images.length;
@@ -109,4 +109,3 @@ function SwipeableTextMobileStepper() {
   );
 }
 
-export default SwipeableTextMobileStepper;
